@@ -41,7 +41,7 @@ echo "1. :key: [Click here to generate a new token](${TOKEN_URL}) called \`Sandp
 echo "2. :clipboard: Copy your new token to your clipboard" >> $GITHUB_STEP_SUMMARY
 echo "3. Go To https://github.com/${GITHUB_REPOSITORY}/settings/secrets/actions/new" >> $GITHUB_STEP_SUMMARY
 echo "   - enter \`SANDPAPER_WORKFLOW\` for the 'Name'" >> $GITHUB_STEP_SUMMARY
-echo "   - :inbox_tray: paste your token for the 'Value'" >> $GITHUB_STEP_SUMMARY
+echo "   - :inbox_tray: paste your token for the 'Secret'" >> $GITHUB_STEP_SUMMARY
 
 if [[ ${PAT} ]]
 then
